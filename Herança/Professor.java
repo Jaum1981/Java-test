@@ -1,4 +1,4 @@
-package Herança.CursoEmVideo;
+package Herança;
 
 public class Professor extends Pessoa{
     
