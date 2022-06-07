@@ -2,18 +2,15 @@ package Polimorfismo.Sobreposição;
 
 abstract public class Animal{
 
-    public int peso;
-    public int idade;
-    public String membros;
+    protected int peso;
+    protected int idade;
+    protected String membros;
 
-    abstract public void locomover(){
-    }
+    public abstract void locomover();
+    
+    public abstract void alimentar();
 
-    abstract public void alimentar(){
-    }
-
-    abstract public void emitirSom(){
-    }
+    public abstract void emitirSom();
 
     public int getPeso() {
         return peso;
