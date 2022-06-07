@@ -1,4 +1,4 @@
-package Herança.CursoEmVideo;
+package Herança;
 
 public class Principal01 {
     public static void main(String[] args) {
